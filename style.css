@@ -1,0 +1,1227 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #dfe9c1 !important;
+}
+
+button {
+    border: 1px solid #7287ae !important;
+}
+
+
+
+
+/* header */
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+    padding-top: 38px;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.header-main-img img {
+    width: 100%;
+}
+
+.health-text {
+    position: absolute;
+    top: 185px;
+    overflow: hidden;
+}
+
+.nav-item a {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Ubuntu";
+    text-align: center;
+}
+
+.health-text h5 {
+    font-size: 103px;
+    line-height: 103px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Ubuntu";
+    text-align: center;
+}
+
+.health-text p {
+    font-size: 33px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
+    padding-top: 65px;
+}
+
+
+
+
+/* menu */
+
+.menu {
+    position: relative;
+    top: -80px;
+    overflow: hidden;
+}
+
+.home-slider {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main-big-text h4 {
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #7287ae;
+    font-weight: 700;
+    font-family: "Ubuntu";
+}
+
+.main-big-text {
+    padding-top: 0;
+    padding-bottom: 100px;
+}
+
+.card-one {
+    overflow: hidden;
+}
+
+.card-text {
+    width: 90%;
+    background-color: #ffffff;
+    padding-top: 13px;
+    padding-left: 20px;
+}
+
+.card-img img {
+    width: 90%;
+}
+
+.card-text a {
+    text-decoration: none;
+}
+
+.card-text h4 {
+    font-size: 33px;
+    color: #504f4f;
+    font-weight: 700;
+    font-family: "Ubuntu";
+}
+
+.card-text p {
+    font-size: 25px;
+    color: #504f4f;
+    font-weight: 400;
+    font-family: "Lato";
+}
+
+.card-text h5 {
+    font-size: 28px;
+    letter-spacing: 2px;
+    line-height: 66px;
+    color: #565656;
+    font-weight: 700;
+    font-family: "Ubuntu";
+}
+
+.card-btn {
+    padding-top: 100px;
+    padding-bottom: 115px;
+}
+
+.card-btn button {
+    font-size: 23px;
+    letter-spacing: 5px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Ubuntu";
+    width: 334px;
+    height: 75px;
+    border-radius: 38px;
+    background-color: #7287ae;
+}
+
+.card-bot-dot-bg img {
+    position: absolute;
+    bottom: 100px;
+    right: 0;
+}
+
+
+
+/* discount one */
+
+.discount-one {
+    overflow: hidden;
+}
+
+.discount-one-main-img img {
+    width: 100%;
+}
+
+.discount-one .col-md-6 {
+    background-color: white;
+}
+
+.discount-one-text {
+    padding-top: 200px;
+    padding-left: 50px;
+}
+
+.dis-one-img-sec {
+    position: relative;
+}
+
+.bot-dots-of-disc-one-img {
+    position: absolute;
+    bottom: -52px;
+    left: 31%;
+}
+
+.discount-one-text h2 {
+    font-size: 58px;
+    color: #333333;
+    font-weight: 700;
+    font-family: "Ubuntu";
+}
+
+.discount-one-text p {
+    font-size: 29px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Lato";
+}
+
+.discount-one-text button {
+    font-size: 23px;
+    letter-spacing: 5px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Ubuntu";
+    width: 334px;
+    height: 75px;
+    border-radius: 37px;
+    background-color: #7287ae;
+}
+
+
+
+/* discount tow */
+
+
+.discount-two {
+    overflow: hidden;
+}
+
+.discount-two-main-img img {
+    width: 100%;
+}
+
+.discount-two .col-md-6 {
+    background-color: white;
+}
+
+.discount-two-text {
+    padding-top: 200px;
+    padding-left: 75px;
+}
+
+.dis-two-img-sec {
+    position: relative;
+}
+
+.bot-dots-of-disc-two-img {
+    position: absolute;
+    bottom: -47px;
+    right: 135px;
+    z-index: 2;
+}
+
+.discount-two-text h2 {
+    font-size: 58px;
+    color: #333333;
+    font-weight: 700;
+    font-family: "Ubuntu";
+}
+
+.discount-two-text p {
+    font-size: 29px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Lato";
+}
+
+.discount-two-text button {
+    font-size: 23px;
+    letter-spacing: 5px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Ubuntu";
+    width: 334px;
+    height: 75px;
+    border-radius: 37px;
+    background-color: #7287ae;
+}
+
+
+
+/* order */
+
+.order {
+    background-color: #7287ae;
+    padding-bottom: 125px;
+    position: relative;
+    z-index: 1;
+}
+
+.order-big-text {
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
+
+.order-big-text h4 {
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Ubuntu";
+}
+
+.round-sirc {
+    display: flex;
+    justify-content: center;
+}
+
+.sec-one h4 {
+    font-size: 46px;
+    line-height: 100px;
+    color: #7287ae;
+    font-weight: 700;
+    font-family: "Ubuntu";
+    text-align: center;
+    width: 104px;
+    height: 104px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+.sec-one h5 {
+    font-size: 46px;
+    line-height: 37px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Ubuntu";
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.sec-one p {
+    font-size: 19px;
+    line-height: 23px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
+}
+
+
+
+/* delivery */
+
+
+.delivery {
+    background: url(./imgs/delivery-bg-img.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    position: relative;
+    height: 600px;
+}
+
+.delivery {
+    overflow: hidden;
+}
+
+.delivery-text {
+    padding-top: 110px;
+}
+
+.delivery-text h1 {
+    font-size: 81px;
+    color: #7287ae;
+    font-weight: 700;
+    font-family: "Ubuntu";
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+.delivery-text p {
+    font-size: 29px;
+    color: #7287ae;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
+    padding-bottom: 61px;
+}
+
+.delivery-text button {
+    font-size: 30px;
+    letter-spacing: 6px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Ubuntu";
+    width: 442px;
+    height: 99px;
+    border-radius: 49px;
+    background-color: #7287ae;
+}
+
+.delivery-top-dots img {
+    position: absolute;
+    top: -53px;
+    left: 132px;
+}
+
+.delivery-bot-dots img {
+    position: absolute;
+    bottom: -53px;
+    right: 108px;
+}
+
+
+
+/* quote */
+
+.quote-text {
+    padding-top: 110px;
+}
+
+.quote-text i {
+    font-size: 151px;
+    color: #7287ae;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+
+.quote-text p {
+    font-size: 37px;
+    line-height: 42px;
+    color: #7287ae;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.quote-text h5 {
+    font-size: 42px;
+    line-height: 42px;
+    color: #7287ae;
+    font-weight: 700;
+    font-family: "Ubuntu";
+    text-align: center;
+    padding-bottom: 75px;
+}
+
+.fb-icon {
+    padding-right: 30px;
+}
+
+.twitter-icon {
+    padding-right: 30px;
+}
+
+
+
+
+/* footer */
+
+.footer-bg-img img {
+    position: absolute;
+    left: 182px;
+    bottom: 66%;
+}
+
+.footer {
+    position: relative;
+    overflow: hidden;
+}
+
+.footer-main-img img {
+    width: 100%;
+}
+
+.foot-all-text {
+    position: absolute;
+    width: 100%;
+    bottom: 50px;
+}
+
+.abt-txt {
+    font-size: 21px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Ubuntu";
+}
+
+.sml-txt {
+    font-size: 21px;
+    line-height: 33px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Lato";
+}
+
+.footer-desc {
+    font-size: 25px;
+    line-height: 29px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Lato";
+}
+
+
+
+
+/* laptop xxl */
+
+@media (max-width: 1400px) {
+
+    .discount-one-text {
+        padding-top: 150px;
+        padding-left: 50px;
+    }
+
+    .discount-two-text {
+        padding-top: 150px;
+        padding-left: 50px;
+    }
+
+}
+
+
+
+/* laptop */
+
+@media (max-width: 1200px) {
+
+
+    .health-text h5 {
+        font-size: 78px;
+        line-height: 71px;
+    }
+
+    .health-text p {
+        font-size: 26px;
+        padding-top: 35px;
+    }
+
+    .menu {
+        position: relative;
+        top: -70px;
+    }
+
+    .card-bot-dot-bg img {
+        position: absolute;
+        bottom: 0px;
+        right: 0;
+    }
+
+    .card-btn {
+        padding-bottom: 0px;
+    }
+
+    .discount-one-text {
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+
+    .discount-one-text p {
+        font-size: 25px;
+    }
+
+    .discount-two-text {
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+
+    .discount-two-text p {
+        font-size: 25px;
+    }
+
+    .discount-two-text h2 {
+        font-size: 50px;
+    }
+
+    .footer-bg-img img {
+        left: 158px;
+        bottom: 63%;
+    }
+
+}
+
+
+/* laptop small */
+
+@media (max-width: 992px) {
+
+    .navbar-nav {
+        /* top: 100px; */
+        background: #455778;
+        z-index: 5;
+    }
+
+    .health-text {
+        position: absolute;
+        top: 150px;
+    }
+
+    .health-text h5 {
+        font-size: 60px;
+        line-height: 50px;
+    }
+
+    .health-text p {
+        font-size: 25px;
+        padding-top: 26px;
+    }
+
+    .main-big-text {
+        padding-bottom: 75px;
+    }
+
+    .menu {
+        top: -55px;
+    }
+
+    .discount-one-text {
+        padding-top: 40px;
+        padding-left: 40px;
+    }
+
+    .discount-one-text h2 {
+        font-size: 45px;
+    }
+
+    .discount-one-text p {
+        font-size: 19px;
+        padding-right: 22px;
+    }
+
+    .discount-one-text button {
+        font-size: 20px;
+        letter-spacing: 5px;
+        width: 242px;
+        height: 59px;
+    }
+
+    .discount-two-text {
+        padding-top: 40px;
+        padding-left: 40px;
+    }
+
+    .discount-two-text h2 {
+        font-size: 40px;
+    }
+
+    .discount-two-text p {
+        font-size: 19px;
+        padding-right: 22px;
+    }
+
+    .discount-two-text button {
+        font-size: 20px;
+        letter-spacing: 5px;
+        width: 242px;
+        height: 59px;
+    }
+
+    .sec-one h5 {
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+
+    .sec-one p {
+        padding-bottom: 50px;
+    }
+
+    .delivery {
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+    }
+
+    .delivery-text h1 {
+        font-size: 59px;
+        padding-bottom: 10px;
+    }
+
+    .delivery-text p {
+        font-size: 20px;
+        padding-bottom: 40px;
+    }
+
+    .delivery-text button {
+        font-size: 20px;
+        width: 299px;
+        height: 77px;
+        letter-spacing: 5px;
+    }
+
+    .delivery-bot-dots img {
+        position: absolute;
+        bottom: 58px;
+        right: 108px;
+    }
+
+    .quote-text p {
+        font-size: 27px;
+    }
+
+    .foot-all-text {
+        position: absolute;
+        width: 100%;
+        bottom: 0px;
+    }
+
+    .footer-bg-img img {
+        position: absolute;
+        left: 125px;
+        bottom: 64%;
+    }
+
+    .footer-colour p {
+        margin-bottom: 0 !important;
+    }
+
+    .footer-desc {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+}
+
+
+/* tablet */
+
+@media (max-width: 767px) {
+
+    .header {
+        padding-top: 15px;
+    }
+
+    .navbar-nav {
+        position: absolute;
+        top: 100px;
+        background: #455778;
+        width: 100%;
+        left: 0;
+        padding-left: 0 !important;
+        z-index: 5;
+    }
+
+    .navbar-brand {
+        width: 75%;
+    }
+
+    .navbar-brand img {
+        width: 50%;
+    }
+
+    .health-text {
+        padding-top: 0px;
+        top: 115px;
+    }
+
+    .health-text h5 {
+        font-size: 37px;
+        line-height: 40px;
+    }
+
+    .health-text p {
+        font-size: 17px;
+        padding-top: 11px;
+    }
+
+    .main-big-text h4 {
+        font-size: 35px;
+    }
+
+    .main-big-text {
+        padding-bottom: 65px;
+    }
+
+    .menu {
+        top: -31px;
+    }
+
+    .card-one {
+        justify-content: center;
+        display: grid;
+        padding-bottom: 50px;
+    }
+
+    .owl-carousel .owl-item img {
+        display: block;
+        width: 90% !important;
+    }
+
+    .card-two {
+        justify-content: center;
+        display: grid;
+        padding-bottom: 50px;
+    }
+
+    .card-three {
+        justify-content: center;
+        display: grid;
+        padding-bottom: 50px;
+    }
+
+    .card-btn button {
+        font-size: 19px;
+        line-height: 21px;
+        width: 259px;
+        height: 67px;
+    }
+
+    .card-bot-dot-bg img {
+        width: 25%;
+    }
+
+    .discount-one-text {
+        padding-top: 50px;
+        padding-left: 25px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .discount-one-text h2 {
+        font-size: 30px;
+    }
+
+    .discount-one-text p {
+        font-size: 16px;
+    }
+
+    .discount-one-text button {
+        font-size: 16px;
+        width: 184px;
+        height: 48px;
+    }
+
+    .reverse {
+        flex-direction: column-reverse;
+    }
+
+    .discount-two-text {
+        padding-top: 50px;
+        padding-left: 25px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .discount-two-text h2 {
+        font-size: 30px;
+    }
+
+    .discount-two-text p {
+        font-size: 16px;
+    }
+
+    .discount-two-text button {
+        font-size: 16px;
+        width: 184px;
+        height: 48px;
+    }
+
+    .order-big-text h4 {
+        font-size: 33px;
+    }
+
+    .order-big-text {
+        padding-top: 94px;
+        padding-bottom: 62px;
+    }
+
+    .sec-one h5 {
+        font-size: 37px;
+        line-height: 30px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .sec-one p {
+        padding-bottom: 60px;
+    }
+
+    .delivery {
+        background-size: 100%;
+        height: 374px;
+    }
+
+    .delivery-text {
+        padding-top: 90px;
+    }
+
+    .delivery-text h1 {
+        font-size: 35px;
+    }
+
+    .delivery-text p {
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+
+    .delivery-text button {
+        font-size: 15px;
+        letter-spacing: 3px;
+        line-height: 5px;
+        width: 193px;
+        height: 48px;
+    }
+
+    .delivery-bot-dots img {
+        bottom: -42px;
+        right: 36px;
+        width: 25%;
+    }
+
+    .quote-text i {
+        font-size: 120px;
+        padding-bottom: 30px;
+    }
+
+    .quote-text p {
+        font-size: 20px;
+        line-height: 30px;
+        padding-bottom: 30px;
+    }
+
+    .quote-text h5 {
+        font-size: 36px;
+        padding-bottom: 60px;
+    }
+
+    .footer-bg-img img {
+        left: 80px;
+        top: 113px;
+        width: 25%;
+        position: relative;
+    }
+
+    .foot-all-text {
+        position: relative;
+        width: 100%;
+        bottom: 2px;
+        background-color: #7287ae;
+    }
+
+}
+
+
+/* mobile */
+
+@media (max-width: 576px) {
+
+
+    .header {
+        padding-top: 0px;
+    }
+
+    .navbar-brand img {
+        width: 60%;
+    }
+
+    .navbar-brand {
+        width: 65%;
+    }
+
+    .health-text {
+        position: absolute;
+        top: 51px;
+    }
+
+    .navbar-nav {
+        top: 50px;
+    }
+
+    .menu {
+        position: relative;
+        top: -8px;
+    }
+
+
+    .health-text h5 {
+        font-size: 25px;
+        line-height: 23px;
+    }
+
+    .health-text p {
+        font-size: 12px;
+        padding-top: 5px;
+    }
+
+    .main-big-text {
+        padding-top: 0;
+        padding-bottom: 40px;
+    }
+
+    .main-big-text h4 {
+        font-size: 25px;
+    }
+
+    .card-btn {
+        padding-top: 12px;
+        padding-bottom: 108px;
+    }
+
+    .card-btn button {
+        font-size: 11px;
+        line-height: 0px;
+        width: 120px;
+        height: 31px;
+        letter-spacing: 1px;
+    }
+
+    .card-bot-dot-bg img {
+        bottom: 100px;
+        width: 25%;
+    }
+
+    .discount-one-text h2 {
+        font-size: 34px;
+    }
+
+    .discount-one-text p {
+        font-size: 23px;
+    }
+
+    .discount-one-text button {
+        font-size: 11px;
+        line-height: 0px;
+        width: 120px;
+        height: 31px;
+        letter-spacing: 1px;
+    }
+
+    .discount-one-text {
+        padding-top: 35px;
+        padding-left: 35px;
+        padding-bottom: 35px;
+        text-align: unset;
+    }
+
+    .bot-dots-of-disc-one-img {
+        bottom: -28px;
+        left: 35%;
+    }
+
+    .bot-dots-of-disc-one-img img {
+        width: 55%;
+    }
+
+    .reverse {
+        flex-direction: column-reverse;
+    }
+
+    .bot-dots-of-disc-two-img {
+        bottom: -36px;
+        right: 6px;
+    }
+
+    .bot-dots-of-disc-two-img img {
+        width: 80%;
+    }
+
+    .discount-two-text h2 {
+        font-size: 29px;
+    }
+
+    .discount-two-text p {
+        font-size: 21px;
+    }
+
+    .discount-two-text button {
+        font-size: 11px;
+        line-height: 0px;
+        width: 120px;
+        height: 31px;
+        letter-spacing: 1px;
+    }
+
+    .discount-two-text {
+        padding-top: 35px;
+        padding-left: 35px;
+        padding-bottom: 35px;
+        text-align: unset;
+    }
+
+    .order-big-text h4 {
+        font-size: 30px;
+    }
+
+    .order {
+        padding-bottom: 50px;
+    }
+
+    .delivery-top-dots img {
+        top: -23px;
+        left: 46px;
+        width: 25%;
+    }
+
+    .delivery-bot-dots img {
+        bottom: -26px;
+        right: 13px;
+        width: 25%;
+    }
+
+    .delivery {
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: 100%;
+        position: relative;
+        height: 283px;
+    }
+
+    .delivery-text {
+        padding-top: 137px;
+    }
+
+    .delivery-text h1 {
+        font-size: 25px;
+    }
+
+    .delivery-text p {
+        font-size: 9px;
+        padding-bottom: 0px;
+    }
+
+    .delivery-text button {
+        font-size: 11px;
+        line-height: 0px;
+        width: 120px;
+        height: 31px;
+        letter-spacing: 1px;
+    }
+
+    .quote-text i {
+        font-size: 80px;
+        padding-bottom: 35px;
+    }
+
+    .quote-text p {
+        font-size: 21px;
+        line-height: 35px;
+        padding-bottom: 30px;
+    }
+
+    .quote-text h5 {
+        font-size: 34px;
+        line-height: 40px;
+        padding-bottom: 65px;
+    }
+
+    .owl-carousel .owl-item img {
+        display: block;
+        width: 98% !important;
+    }
+
+    .card-text {
+        width: 98%;
+    }
+
+    .card-one {
+        padding-bottom: 50px;
+    }
+
+    .card-two {
+        padding-bottom: 50px;
+    }
+
+    .card-three {
+        padding-bottom: 50px;
+    }
+
+    .sec-one h4 {
+        font-size: 35px;
+        line-height: 75px;
+        width: 75px;
+        height: 75px;
+    }
+
+    .sec-one h5 {
+        font-size: 37px;
+        line-height: 0px;
+        padding-top: 21px;
+        padding-bottom: 30px;
+    }
+
+    .sec-one p {
+        font-size: 19px;
+        line-height: 21px;
+        padding-bottom: 50px;
+    }
+
+    .foot-all-text {
+        position: relative;
+        width: 100%;
+        bottom: 10px;
+        background-color: #7287ae;
+    }
+
+    .footer-colour {
+        padding-bottom: 20px;
+    }
+
+    footer {
+        background-color: #7287ae;
+    }
+
+    .footer-bg-img img {
+        position: absolute;
+        width: 25%;
+        left: 39px;
+        top: 1%;
+    }
+
+}
+
+@media (max-width: 315px) {
+
+    .navbar-brand {
+        width: 70%;
+    }
+}
